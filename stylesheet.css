@@ -1,0 +1,13 @@
+body {
+  background-image: url("images/bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo {
+	width: 450px;
+	padding-left: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
