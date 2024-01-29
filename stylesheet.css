@@ -1,13 +1,56 @@
 body {
-  background-image: url("images/bg.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+	background-image: url("images/bg.gif");
+	background-color: rgba(255, 255, 204, .4);
+	background-position: center;
+}
+
+h1{
+	font-family: Verdana, sans-serif;
+}
+
+p{
+	font-size: 18;
+}
+
+.header{
+	margin: auto;
+	width: 1270px;
+	height: 115px;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .logo {
-	width: 450px;
-	padding-left: 30px;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	width: 500px;
+	margin: auto;
+    float: left;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.headerTable{
+	margin: auto;
+	padding-top: 35px;
+	padding-right: 20px;
+}
+
+.headerTablePoint{
+	font-family: Verdana, sans-serif;
+	width: 300px;
+	font-size: 21;
+	vertical-align: center;
+	color: white;
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+	text-decoration: none;
+}
+
+.bodyDiv{
+	font-family: Verdana, sans-serif;
+	margin: auto;
+	width: 1235px;
+	background-color: rgba(248, 248, 248, 1);
+	border: 20px solid;
+	border-image: url("images/borderImage.png") 50 round;
+	padding-bottom: 3px;
 }

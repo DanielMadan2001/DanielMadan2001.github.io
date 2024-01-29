@@ -1,0 +1,20 @@
+.pictureDiv{
+	width: 300px;	
+	margin: auto; 
+	/* margin-right: 0; */
+	padding-left: 15px;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	float: right;
+	margin-left: 10px;
+}
+
+.linkedInPicture{
+	height: 300px; 
+	padding-bottom: 10px;
+}
+
+.linkedImages{
+	height: 40px;
+	padding-right: 5px;
+}
