@@ -19,6 +19,12 @@ p{
 	height: 115px;
 	background-repeat: no-repeat;
 	background-size: cover;
+	color: green;
+}
+
+.header a{
+  color: white;
+  text-decoration: none;
 }
 
 .logo {
@@ -54,4 +60,72 @@ p{
 	border: 20px solid;
 	border-image: url("images/borderImage.png") 50 round;
 	padding-bottom: 3px;
+	position: relative;
+}
+
+.bodyDivContents{
+	width: 1135px;
+	transition: 0.5s;
+}
+
+.tableOfContentsDiv{
+	/* background-color: rgba(55, 255, 55, 0.6); */
+	position: fixed;
+	width: 250px;
+	height: 500px;
+    top: 250px;
+	transform: translateX(985px);
+	color: white;
+}
+
+.tableOfContentsButton{
+	background-color: rgba(55, 55, 55, 0.6);	
+    position: absolute;
+	width: 75px;
+	height: 75px;
+    top: 0px;
+    right: 0px;
+	
+	font-size: 48px;
+	text-align: center;
+	color: white;
+	
+	cursor:pointer;
+	overflow-x: hidden;
+	transition: 0.5s;
+}
+
+.tableOfContents{
+	background-color: rgba(55, 55, 55, 0.8);	
+    position: absolute;
+	width: 0px;
+	height: 500px;
+	right: 0px;
+    /* top: 250px; */
+	/* align-self: left; */
+	/* transform: translateX(975px); */
+	
+	overflow-x: hidden;
+	transition: 0.5s;
+}
+
+.tableOfContents h2{ padding-left: 15px; }
+
+.tableOfContents h3{ padding-left: 15px; }
+
+.tableOfContents a{ color: white; text-decoration: none; }
+
+.tableOfContentsClose{	
+	width: 75px;
+	height: 75px;
+    top: 0px;
+    margin-top: 25px;
+    margin-left: 10px;
+	
+	font-size: 48px;
+	text-align: center;
+	color: white;
+	
+	cursor:pointer;
+	overflow-x: hidden;
 }

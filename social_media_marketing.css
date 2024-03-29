@@ -1,10 +1,11 @@
 .img{
-	
 	height: 200px;
 	padding-right: 5px;
+	transition: 0.5s;
 }
 
 .twitter-tweet{
 	width: 120px;
 	align-self: top;
+	transition: 0.5s;
 }

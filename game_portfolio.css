@@ -1,4 +1,5 @@
 .galleryItem {
 	height: 150px; 
 	padding-right: 5px;
+	transition: 0.5s;
 }
