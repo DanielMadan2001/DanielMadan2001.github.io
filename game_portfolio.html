@@ -100,23 +100,25 @@
 					<span id="tableOfContentsClose" class="tableOfContentsClose"> ☰ </span>
 					
 					<a href = "#current_projects"> <h2> Current projects </h2> </a>
-					<a href = "#queenslayer"> <h3> Queenslayer </h3> </a>
-					<br>
+					<ul>
+						<li> <a href = "#queenslayer"> <h3> Queenslayer </h3> </a> </li>
+					</ul>
 					
 					<a href = "#completed_projects"> <h2> Completed projects </h2> </a>
-					<a href = "#scrabbleman"> <h3> Scrabbleman </h3> </a>
-					<a href = "#sellsword_company"> <h3> Sellsword Company </h3> </a>
-					<br>
+					<ul>
+						<li> <a href = "#scrabbleman"> <h3> Scrabbleman </h3> </a> </li>
+						<li> <a href = "#sellsword_company"> <h3> Sellsword Company </h3> </a> </li>
+					</ul>
 					
 					<a href = "#incomplete_projects"> <h2> Incomplete projects </h2> </a>
-					<a href = "#protoman"> <h3> Proto Man </h3> </a>
-					<br>
+					<ul>
+						<li> <a href = "#protoman"> <h3> Proto Man </h3> </a> </li>
+					</ul>
 				</div>
 				
 			</div>
 		</div>
 		
-		<!-- <script type="module" src="game_portfolio.js"> </script> -->
 		<script>
 			tableOfContentsOpen = false;
 				
@@ -131,6 +133,8 @@
 				if (tableOfContentsOpen) {
 					document.getElementById("bodyDivContents").style.width = "885px";
 					document.getElementById("tableOfContents").style.width = "250px";
+					document.getElementById("tableOfContents").style.border = "15px solid";
+					document.getElementById("tableOfContents").style.borderImage = "url('images/borderImage_tableOfContents.png') 50 round";
 					document.getElementById("tableOfContentsButton").style.width = "0px";
 					
 					for (var i = 0; i < galleryItems.length; i++) {
@@ -141,7 +145,9 @@
 				else {
 					document.getElementById("bodyDivContents").style.width = "1135px";
 					document.getElementById("tableOfContents").style.width = "0px";
-					document.getElementById("tableOfContentsButton").style.width = "75px";
+					document.getElementById("tableOfContents").style.border = "0px solid";
+					document.getElementById("tableOfContents").style.borderImage = "url('images/borderImage_tableOfContents.png') 50 round";
+					document.getElementById("tableOfContentsButton").style.width = "50px";
 					
 					for (var i = 0; i < galleryItems.length; i++) {
 						galleryItems[i].style.height = "150px";

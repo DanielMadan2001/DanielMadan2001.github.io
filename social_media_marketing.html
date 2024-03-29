@@ -76,6 +76,26 @@
 						<th> <blockquote class="twitter-tweet"><p lang="en" dir="ltr">18 years ago, World Community Grid was founded as a way for a global community to contribute towards world changing research. Thank you for accelerating science by creating a supercomputer empowered by a global community!<a href="https://t.co/7Crr7T7hsn">https://t.co/7Crr7T7hsn</a> <a href="https://t.co/p7BI4heils">pic.twitter.com/p7BI4heils</a></p>&mdash; World Community Grid (@WCGrid) <a href="https://twitter.com/WCGrid/status/1592943935508254720?ref_src=twsrc%5Etfw">November 16, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> </th>
 					</tr>
 				</table>
+				<h3 id="queensfgc"> Queen's Fighting Game Club </h3>
+				<p>
+					During my fifth year at Queen's University, I acted as the marketing and social media manager of the school's fighting game club.
+					Through announcements on the club's Discord server and <a href = "https://www.instagram.com/queensfgc/" target="blank">Instagram account</a>, I would share news of upcoming events and club news.
+					To spread the word about the Instagram account, I contacted other Queen's-based organizations that were gracious enough to promote our page.
+					Additionally, I would occasionally post comedic photos and memes to keep the community engaged during times with sparse news.
+					<br> <br>
+					Displayed below are examples of social media posts that I created:
+				</p>
+				<table>
+					<tr>
+						<th> <a href = "https://www.instagram.com/p/CzpOMvvP4kc/" target="blank"> <img class="img" src="images/social_media/qfgc1.png"> </a> </th>
+						<th> <a href = "https://www.instagram.com/p/C255wojM8lz/" target="blank"> <img class="img" src="images/social_media/qfgc2.jpg"> </a> </th>
+						<th> <a href = "https://www.instagram.com/p/C4RRcskPTA7/" target="blank"> <img class="img" src="images/social_media/qfgc3.png"> </a> </th>
+					</tr>
+					<tr>
+						<th> <video class="instagram-story" controls> <source src="images/social_media/qfgcStory1.mp4" type="video/mp4"> </video> </th>
+						<th> <video class="instagram-story" controls> <source src="images/social_media/qfgcStory2.mp4" type="video/mp4"> </video> </th>
+					</tr>
+				</table>
 				
 				<h2 id="comedic_accounts"> Comedic accounts </h2>
 				<h3 id="imageswithjsr"> Images with Jet Set Radio Music </h3>
@@ -126,15 +146,21 @@
 					<span id="tableOfContentsClose" class="tableOfContentsClose"> ☰ </span>
 					
 					<a href = "#professional_accounts"> <h2> Professional accounts </h2> </a>
-					<a href = "#farco_entertainment"> <h3> Farco Entertainment </h3> </a>
-					<a href = "#down_there"> <h3> Down There </h3> </a>
-					<a href = "#world_community_grid"> <h3> World Community Grid </h3> </a>
-					<br>
+					
+					<ul>
+						<li> <a href = "#farco_entertainment"> <h3> Farco Entertainment </h3> </a> </li>
+						<li> <a href = "#down_there"> <h3> Down There </h3> </a> </li>
+						<li> <a href = "#world_community_grid"> <h3> World Community Grid </h3> </a> </li>
+						<li> <a href = "#queensfgc"> <h3> Queen's Fighting Game Club </h3> </a> </li>
+					</ul>
 					
 					<a href = "#comedic_accounts"> <h2> Comedic Accounts </h2> </a>
-					<a href = "#imageswithjsr"> <h3> Images with Jet Set Radio Music </h3> </a>
-					<a href = "#makeupafgplayer"> <h3> Make Up a Fighting Game Player </h3> </a>
-					<br>
+					
+					
+					<ul>
+						<li> <a href = "#imageswithjsr"> <h3> Images with Jet Set Radio Music </h3> </a> </li>
+						<li> <a href = "#makeupafgplayer"> <h3> Make Up a Fighting Game Player </h3> </a> </li>
+					</ul>
 				</div>
 				
 			</div>
@@ -148,6 +174,7 @@
 			document.getElementById("tableOfContentsClose").onclick = function() {tableOfContentsToggle()};
 			
 			const imgs = document.getElementsByClassName("img");
+			const stories = document.getElementsByClassName("instagram-story");
 
 			function tableOfContentsToggle() {
 				tableOfContentsOpen = !tableOfContentsOpen;
@@ -155,20 +182,29 @@
 				if (tableOfContentsOpen) {
 					document.getElementById("bodyDivContents").style.width = "885px";
 					document.getElementById("tableOfContents").style.width = "250px";
+					document.getElementById("tableOfContents").style.border = "15px solid";
+					document.getElementById("tableOfContents").style.borderImage = "url('images/borderImage_tableOfContents.png') 50 round";
 					document.getElementById("tableOfContentsButton").style.width = "0px";
-					
+		
 					for (var i = 0; i < imgs.length; i++) {
-						imgs[i].style.height = "150px";
+						imgs[i].style.height = "200px";
 					}
-					
+					for (var i = 0; i < stories.length; i++) {
+						stories[i].style.width = "200px";
+					}
 				}
 				else {
 					document.getElementById("bodyDivContents").style.width = "1135px";
 					document.getElementById("tableOfContents").style.width = "0px";
-					document.getElementById("tableOfContentsButton").style.width = "75px";
+					document.getElementById("tableOfContents").style.border = "0px solid";
+					document.getElementById("tableOfContents").style.borderImage = "url('images/borderImage_tableOfContents.png') 50 round";
+					document.getElementById("tableOfContentsButton").style.width = "50px";
 					
 					for (var i = 0; i < imgs.length; i++) {
-						imgs[i].style.height = "150px";
+						imgs[i].style.height = "250px";
+					}
+					for (var i = 0; i < stories.length; i++) {
+						stories[i].style.width = "250px";
 					}
 				}
 			}

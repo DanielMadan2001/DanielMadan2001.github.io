@@ -1,7 +1,11 @@
 .img{
-	height: 200px;
+	height: 250px;
 	padding-right: 5px;
 	transition: 0.5s;
+}
+
+.instagram-story{
+	width: 250px;
 }
 
 .twitter-tweet{

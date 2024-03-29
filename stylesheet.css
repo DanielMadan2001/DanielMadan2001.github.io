@@ -72,23 +72,25 @@ p{
 	/* background-color: rgba(55, 255, 55, 0.6); */
 	position: fixed;
 	width: 250px;
-	height: 500px;
+	height: 400px;
     top: 250px;
 	transform: translateX(985px);
-	color: white;
+	color: rgba(136, 136, 72, 1);
 }
 
 .tableOfContentsButton{
-	background-color: rgba(55, 55, 55, 0.6);	
+	background-color: rgba(240, 240, 152, 1);
     position: absolute;
-	width: 75px;
-	height: 75px;
+	width: 50px;
+	height: 50px;
     top: 0px;
     right: 0px;
 	
-	font-size: 48px;
+	font-size: 36px;
 	text-align: center;
-	color: white;
+	
+	border: 15px solid;
+	border-image: url("images/borderImage_tableOfContents.png") 50 round;
 	
 	cursor:pointer;
 	overflow-x: hidden;
@@ -99,11 +101,15 @@ p{
 	background-color: rgba(55, 55, 55, 0.8);	
     position: absolute;
 	width: 0px;
-	height: 500px;
+	height: 400px;
 	right: 0px;
     /* top: 250px; */
 	/* align-self: left; */
 	/* transform: translateX(975px); */
+	
+	background-color: rgba(240, 240, 152, 1);
+	border: 0px solid;
+	border-image: url("images/borderImage_tableOfContents.png") 50 round;
 	
 	overflow-x: hidden;
 	transition: 0.5s;
@@ -111,20 +117,17 @@ p{
 
 .tableOfContents h2{ padding-left: 15px; }
 
-.tableOfContents h3{ padding-left: 15px; }
-
-.tableOfContents a{ color: white; text-decoration: none; }
+.tableOfContents a{ color: rgba(136, 136, 72, 1); text-decoration: none; }
 
 .tableOfContentsClose{	
-	width: 75px;
-	height: 75px;
+	width: 50px;
+	height: 50px;
     top: 0px;
     margin-top: 25px;
     margin-left: 10px;
 	
-	font-size: 48px;
+	font-size: 36px;
 	text-align: center;
-	color: white;
 	
 	cursor:pointer;
 	overflow-x: hidden;
