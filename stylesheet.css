@@ -125,7 +125,7 @@ p{
 	transition: 0.5s;
 }
 
-.tableOfContents h2{ padding-left: 15px; }
+.tableOfContents h2{ padding-left: 15px; font-size: 21px; }
 
 .tableOfContents a{ color: rgba(136, 136, 72, 1); text-decoration: none; }
 

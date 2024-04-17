@@ -3,3 +3,14 @@
 	padding-right: 5px;
 	transition: 0.5s;
 }
+
+.galleryItemCaption {
+	font-size: 14;
+	font-weight:normal
+}
+
+.halfTableDiv {
+	width: 50%;
+	margin: auto;
+    float: left;
+}

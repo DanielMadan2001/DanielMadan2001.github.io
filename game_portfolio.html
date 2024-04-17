@@ -24,7 +24,92 @@
 			<hr>
 			
 			<div id="bodyDivContents" class="bodyDivContents">
-				<h2 id="current_projects"> Current projects </h2>
+			
+				<h2 id="school_projects"> School Projects </h2>
+				
+				<div id="stellar_synergy"> <!-- STELLAR SYNERGY -->
+					<a href = "https://discord.gg/kXJFPxS8MQ" target="blank"> <h3> Stellar Synergy </h3> </a>
+					<p>
+						Stellar Synergy has been a collaborative project between 
+							<a href = "https://www.linkedin.com/in/osamudiamen-adun-0a8991239/" target="blank">Osamudiamen Adun</a>, 
+							<a href = "https://www.linkedin.com/in/stefan-d-ippolito-2b75aa207/" target="blank">Stefan D'Ippolito</a>, 
+							<a href = "https://www.linkedin.com/in/rebecca-de-venezia/" target="blank">Rebecca De Venezia</a>, 
+							<a href = "https://www.linkedin.com/in/jayttk02/" target="blank">Jayden Ting</a>							
+						and myself for the class <a href = "https://www.cs.queensu.ca/undergraduate/courses/CISC-496" target="blank">CISC 496</a>.
+						<br><br>
+						A cooperative 2D platforming game where two players share control of the same character.
+						Actions such as moving, jumping and attacking are split between both players, necessitating them to communicate so as not to interfere with each other.
+						Together, they must traverse levels with platforming challenges and enemies that require varying strategies and maneuvers.
+						<br><br>
+						The game is controlled using the players' phones, which are connected to the game via a local server. 
+						As such, the game is designed for "couch co-op" (playing within the same room, looking at the same screen).
+						Once connected, the player will have access to a webpage with buttons corresponding to available abilities.
+						The robot takes commands from the players' button presses and immediately executes them.
+						<br>
+					</p>
+					<div class="halfTableDiv"> 
+						<p> <b> Player 1's Actions: </b> </p>
+						<ul>
+							<li> <p> Aim: Changes the angle of the robot's laser projectile when fired. 
+							Uses the phone's gyroscope to determine horizontal orientation of the device, determining the sightline. </p> </i>
+							<li> <p> Punch: Triggers punching attack that hits tall enemies. </p> </i>
+							<li> <p> Forward Movement: Moves the robot forward, as long as the other player's movement command is not being pressed simultaneously. </p> </i>
+						</ul>
+					</div>
+					
+					<div class="halfTableDiv"> 
+						<p> <b> Player 2's Actions: </b> </p>
+						<ul>
+							<li> <p> Shoot: Fires a projectile from the robot's head that is effective at hitting long-range enemies.
+							The angle of the projectile is determined by the orientation of the other player's Aim command.</p> </i>
+							<li> <p> Kick: Triggers kicking attack that hits short enemies. </p> </i>
+							<li> <p> Backwards Movement: Moves the robot backward, as long as the other player's movement command is not being pressed simultaneously. </p> </i>
+						</ul>
+					</div>
+					
+					<p> <b> Shared Actions: </b> </p>
+					<ul>
+						<li> <p> Jumping: When a player presses their "Jump" button, the robot crouches as a jump is prepared.
+						Once the other player presses their button as well, a jump is performed.
+						Otherwise, the robot will return to its regular mode after a brief period.
+						The players are able to control its airborne movement during the jump with their corresponding movement buttons.
+						</p> </i>
+					</ul>
+					
+					<p> 
+						The control scheme's deliberate complexities and limitations are the most difficult aspect of the game for players to master.
+						Certain actions require input from both players, such as aiming/shooting and jumping, while others actively restrict their teammates actions, such as horizontal movement.
+						A strong sense of communication will allow teams to effectively overcome platforming challenges and defeat enemies.
+						<br> <br>
+						The demo version of the game has received universal praise and positive feedback from our teacher and peers.
+						At the school's annual <a href = "https://www.linkedin.com/posts/queenscomputing_our-students-are-ready-to-present-their-final-activity-7181742635282264064-mEHg?utm_source=share&utm_medium=member_desktop" target="blank"> Creative Computing Showcase</a>, the project was given the Best Videogame Award from the department's faculty.
+					</p>	
+					
+					<table>
+						<tr>
+							<th> <a href = "images/screenshots/stellar_synergy1.png" target="blank"> <img class="galleryItem" src="images/screenshots/stellar_synergy1.png"> </a> </th>
+							<th> <a href = "images/screenshots/stellar_synergy2.png" target="blank"> <img class="galleryItem" src="images/screenshots/stellar_synergy2.png"> </a> </th>
+							<th> <a href = "images/screenshots/stellar_synergy3.png" target="blank"> <img class="galleryItem" src="images/screenshots/stellar_synergy3.png"> </a> </th>
+							<th> <a href = "images/screenshots/stellar_synergy4.png" target="blank"> <img class="galleryItem" src="images/screenshots/stellar_synergy4.png"> </a> </th>
+						</tr>
+						<tr>
+							<th> 
+								<a href = "images/screenshots/stellar_synergy_showcase1.png" target="blank"> <img class="galleryItem" src="images/screenshots/stellar_synergy_showcase1.png"> </a> 
+								<p class="galleryItemCaption"> Students playing the demo at the Creative Computing Showcase </p>
+							</th>
+							<th> 
+								<a href = "images/screenshots/stellar_synergy_showcase2.png" target="blank"> <img class="galleryItem" src="images/screenshots/stellar_synergy_showcase2.png"> </a> 
+								<p class="galleryItemCaption"> Students playing the demo at the Creative Computing Showcase </p>
+							</th>
+							<th> 
+								<a href = "images/screenshots/stellar_synergy_showcase3.png" target="blank"> <img class="galleryItem" src="images/screenshots/stellar_synergy_showcase3.png"> </a> 
+								<p class="galleryItemCaption"> The team and I receiving an <a href = "https://www.cs.queensu.ca/news/2024/04/15/2024-creative-computing-showcase-2/" target="blank"> award from Queen's School of Computing </a> </p>  
+							</th>
+						</tr>
+					</table>				
+				</div>
+				
+				<h2 id="current_projects"> Current Personal Projects </h2>
 				
 				<div id="queenslayer"> <!-- QUEENSLAYER -->
 					<a href = "https://hithubgames.github.io/Queenslayer/QueenslayerWiki/" target="blank"> <h3> Queenslayer </h3> </a>
@@ -42,7 +127,7 @@
 					</table>
 				</div>
 				
-				<h2 id="completed_projects"> Completed projects </h2>
+				<h2 id="completed_projects"> Completed Personal Projects </h2>
 				
 				<div id="scrabbleman"> <!-- SCRABBLEMAN -->
 					<a href = "https://github.com/DanielMadan2001/Scrabbleman" target="blank"> <h3> Scrabbleman </h3> </a>
@@ -73,21 +158,6 @@
 						</tr>
 					</table>
 				</div>
-				
-				<h2 id="incomplete_projects"> Incomplete projects </h2>
-				
-				<div id="protoman"> <!-- PROTO MAN -->
-					<a href = "https://github.com/DanielMadan2001/Proto-Man" target="blank"> <h3> Proto Man </h3> </a>
-					<p> 
-						A Mega Man fan-game project starring the character <a href = "https://megaman.fandom.com/wiki/Proto_Man" target="blank"> Proto Man</a>.
-						The project has been abandoned, but an editable version is available with functional platforming control.
-					</p>
-					<table>
-						<tr>
-							<th> <a href = "images/screenshots/protoman_1.png" target="blank"> <img class="galleryItem" src="images/screenshots/protoman_1.png"> </a> </th>
-						</tr>
-					</table>
-				</div>
 			
 			</div>
 			
@@ -99,20 +169,20 @@
 				
 					<span id="tableOfContentsClose" class="tableOfContentsClose"> ☰ </span>
 					
-					<a href = "#current_projects"> <h2> Current projects </h2> </a>
+					<a href = "#school_projects"> <h2> School Projects </h2> </a>
+					<ul>
+						<li> <a href = "#stellar_synergy"> <h3> Stellar Synergy </h3> </a> </li>
+					</ul>
+					
+					<a href = "#current_projects"> <h2> Current Personal Projects </h2> </a>
 					<ul>
 						<li> <a href = "#queenslayer"> <h3> Queenslayer </h3> </a> </li>
 					</ul>
 					
-					<a href = "#completed_projects"> <h2> Completed projects </h2> </a>
+					<a href = "#completed_projects"> <h2> Completed Personal Projects </h2> </a>
 					<ul>
 						<li> <a href = "#scrabbleman"> <h3> Scrabbleman </h3> </a> </li>
 						<li> <a href = "#sellsword_company"> <h3> Sellsword Company </h3> </a> </li>
-					</ul>
-					
-					<a href = "#incomplete_projects"> <h2> Incomplete projects </h2> </a>
-					<ul>
-						<li> <a href = "#protoman"> <h3> Proto Man </h3> </a> </li>
 					</ul>
 				</div>
 				
@@ -154,6 +224,23 @@
 					}
 				}
 			}
+
+			const tableOfContentsDiv = document.getElementsByClassName("tableOfContentsDiv")[0];
+			let scrollNum = 0;
+			
+			function updateTOCDiv() {				
+				if (document.body.scrollTop == 0) {
+					tableOfContentsDiv.style.top = "250px";
+				}
+				else if (document.body.scrollTop > 0 && document.body.scrollTop < 225) {
+					scrollNum = 250 - document.body.scrollTop;
+					tableOfContentsDiv.style.top = scrollNum + "px";
+				}
+				else {
+					tableOfContentsDiv.style.top = "25px";
+				}
+			}
+			setInterval(updateTOCDiv, 10);
 		</script>
 		
 	</body>
