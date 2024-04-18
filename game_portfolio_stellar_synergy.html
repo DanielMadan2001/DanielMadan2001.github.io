@@ -1,0 +1,84 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Daniel Madan's Website</title>
+		<link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+		<link rel="stylesheet" type="text/css" href="game_portfolio.css"/>
+		<link rel="icon" href="images/icon.png">
+	</head>
+	<body>
+		<div class="header" style='background-image: url("images/headerBG3.png");'>
+			<img class="logo" src="images/logo3.gif">
+			<table class="headerTable">
+				<tr>
+					<th class="headerTablePoint"> <a href = "index.html"> ABOUT ME </a> </th>
+					<th class="headerTablePoint"> <a href = "coding_experience.html"> CODING EXPERIENCE </a> </th>
+					<th class="headerTablePoint"> <a href = "game_portfolio.html"> GAME PORTFOLIO </a> </th>
+					<th class="headerTablePoint"> <a href = "social_media_marketing.html"> SOCIAL MEDIA & MARKETING </a> </th>
+				</tr>
+			</table>
+		</div>
+		<div class="bodyDiv">
+			<p>
+				<h2> Stellar Synergy </h2>
+				<p>
+					Stellar Synergy is a cooperative 2D platforming game where two players share control of the same character.
+					Actions such as moving, jumping and attacking are split between both players, necessitating them to communicate so as not to interfere with each other.
+					Together, they must traverse levels with platforming challenges and enemies that require varying strategies and maneuvers.
+					<br><br>
+					The game is controlled using the players' phones, which are connected to the game via a local server. 
+					As such, the game is designed for "couch co-op" (playing within the same room, looking at the same screen).
+					Once connected, the player will have access to a webpage with buttons corresponding to available abilities.
+					The robot takes commands from the players' button presses and immediately executes them.
+					<br>
+				</p>
+				<div class="halfTableDiv"> 
+					<p> <b> Player 1's Actions: </b> </p>
+					<ul>
+						<li> <p> Aim: Changes the angle of the robot's laser projectile when fired. 
+						Uses the phone's gyroscope to determine horizontal orientation of the device, determining the sightline. </p> </i>
+						<li> <p> Punch: Triggers punching attack that hits tall enemies. </p> </i>
+						<li> <p> Forward Movement: Moves the robot forward, as long as the other player's movement command is not being pressed simultaneously. </p> </i>
+					</ul>
+				</div>
+					
+				<div class="halfTableDiv"> 
+					<p> <b> Player 2's Actions: </b> </p>
+					<ul>
+						<li> <p> Shoot: Fires a projectile from the robot's head that is effective at hitting long-range enemies.
+						The angle of the projectile is determined by the orientation of the other player's Aim command.</p> </i>
+						<li> <p> Kick: Triggers kicking attack that hits short enemies. </p> </i>
+						<li> <p> Backwards Movement: Moves the robot backward, as long as the other player's movement command is not being pressed simultaneously. </p> </i>
+					</ul>
+				</div>
+					
+				<p> <b> Shared Actions: </b> </p>
+				<ul>
+					<li> <p> Jumping: When a player presses their "Jump" button, the robot crouches as a jump is prepared.
+					Once the other player presses their button as well, a jump is performed.
+					Otherwise, the robot will return to its regular mode after a brief period.
+					The players are able to control its airborne movement during the jump with their corresponding movement buttons.
+					</p> </i>
+				</ul>
+					
+				<p> 
+					The control scheme's deliberate complexities and limitations are the most difficult aspect of the game for players to master.
+					Certain actions require input from both players, such as aiming/shooting and jumping, while others actively restrict their teammates actions, such as horizontal movement.
+					A strong sense of communication will allow teams to effectively overcome platforming challenges and defeat enemies.
+					<br> <br>
+					Plans for the future of the project are currently in negotiation, but we are interested in continuing to work on the game.
+				</p>
+			<table>
+				<tr>
+					<th> <a href = "images/screenshots/stellar_synergy1.png" target="blank"> <img class="galleryItem" src="images/screenshots/stellar_synergy1.png"> </a> </th>
+					<th> <a href = "images/screenshots/stellar_synergy2.png" target="blank"> <img class="galleryItem" src="images/screenshots/stellar_synergy2.png"> </a> </th>
+					<th> <a href = "images/screenshots/stellar_synergy3.png" target="blank"> <img class="galleryItem" src="images/screenshots/stellar_synergy3.png"> </a> </th>
+					<th> <a href = "images/screenshots/stellar_synergy4.png" target="blank"> <img class="galleryItem" src="images/screenshots/stellar_synergy4.png"> </a> </th>
+				</tr>	
+			</table>
+			<hr>			
+			<h3> <a href = "game_portfolio.html#stellar_synergy"> Return to Game Portfolio </a> </h3>
+		</div>
+	</body>
+</html>
