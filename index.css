@@ -1,5 +1,5 @@
 .pictureDiv{
-	width: 300px;	
+	width: 260px;	
 	margin: auto; 
 	/* margin-right: 0; */
 	padding-left: 15px;
@@ -7,6 +7,7 @@
 	padding-bottom: 15px;
 	float: right;
 	margin-left: 10px;
+	/* background-color: blue; */
 }
 
 .linkedInPicture{
