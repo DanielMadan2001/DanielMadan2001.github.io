@@ -1,15 +1,24 @@
-.img{
-	height: 250px;
+.imgTable {
+	width: 100%;
+}
+
+.imgTh {
+	width: 25%; 
 	padding-right: 5px;
 	transition: 0.5s;
 }
 
+.img{
+	width: 100%; 
+}
+
 .instagram-story{
-	width: 250px;
+	width: 100%;
 }
 
 .twitter-tweet{
-	width: 120px;
-	align-self: top;
-	transition: 0.5s;
+	width: 100%;
+	/* data-media-max-width: 25%; */
+	/* align-self: top; */
+	/* transition: 0.5s; */
 }

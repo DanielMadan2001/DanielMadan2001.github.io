@@ -1,7 +1,15 @@
-.galleryItem {
-	height: 150px; 
+.galleryTable {
+	width: 100%;
+}
+
+.galleryTh {
+	width: 25%; 
 	padding-right: 5px;
 	transition: 0.5s;
+}
+
+.galleryItem {
+	width: 100%; 
 }
 
 .galleryItemCaption {
