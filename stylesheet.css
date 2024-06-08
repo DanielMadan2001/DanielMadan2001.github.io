@@ -153,6 +153,8 @@ p{
 
 .tableOfContents h3{ padding-left: 15px; font-size: 1em; }
 
+.tableOfContents li{ color: rgba(136, 136, 72, 1); }
+
 .tableOfContents a{ color: rgba(136, 136, 72, 1); text-decoration: none; }
 
 .tableOfContentsClose{	
