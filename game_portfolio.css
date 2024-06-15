@@ -2,6 +2,14 @@
 	width: 100%;
 }
 
+.videoDemo {
+	width: 49%; 
+	padding-right: 5px;
+	transition: 0.5s;
+	padding-left: 4px;
+	padding-bottom: 10px;
+}
+
 .galleryTh {
 	width: 25%; 
 	padding-right: 5px;
