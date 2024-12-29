@@ -26,6 +26,10 @@ h3{
 	font-family: Verdana, sans-serif;
 }
 
+h5{
+	font-style: italic;
+}
+
 p{
 	font-size: 1.15em;
 }
