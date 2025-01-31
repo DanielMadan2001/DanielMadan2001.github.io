@@ -34,6 +34,10 @@ p{
 	font-size: 1.15em;
 }
 
+audio {
+	width: 100%;
+}
+
 .header{
 	margin: auto;
 	width: 98.5%;
@@ -177,4 +181,23 @@ p{
 	
 	cursor:pointer;
 	overflow-x: hidden;
+}
+
+.audioParent {
+	min-height: 100px;
+	padding-bottom: 1%;
+}
+
+.audioClipDiv{
+	width: 30%;
+	min-height: 100px;
+	margin: auto;
+	float: left;
+	margin-right: 1%;
+}
+
+.audioClipDiv p {
+	margin-top: 5px;
+	margin-bottom: 10px;
+	margin-left: 15px;
 }
