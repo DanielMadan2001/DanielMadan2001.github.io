@@ -47,7 +47,18 @@
 	padding-bottom: 10px;
 }
 
+/* .pictureDiv audio::-webkit-media-controls-enclosure { */
+	/* width: 90%; */
+	/* background-color: white; */
+	/* border: 2px solid #0066ff; */
+/* } */
+
 .linkedImages{
 	height: 40px;
 	padding-right: 5px;
+}
+
+.name_pronunciation{
+	height: 1em;
+	cursor: pointer;
 }

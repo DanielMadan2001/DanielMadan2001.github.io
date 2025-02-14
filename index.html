@@ -43,7 +43,9 @@
 					</table>
 				</div>
 				<p> 
-					My name is Daniel Jay Madan, and I am a video game and computer science enthusiast from Toronto, Ontario.
+					My name is Daniel Jay Madan<img src="images/soundIcon.png" class="name_pronunciation" onclick="playNamePronunciation()" title="DAN-yəl JAY MAD-in">,
+					<!-- <button class="name_pronunciation"> Test </button> -->
+					and I am a video game and computer science enthusiast from Toronto, Ontario.
 					I have loved playing and making games for as long as I can remember, from pen-and-paper games in my youth to ones made with cutting-edge technology.
 					<!-- Ever since my second year of high school, I have been taking computer science and software development classes while creating personal projects on the side. -->
 					My long-term goal is to work in the game development industry in a scripting or creative position.
@@ -82,5 +84,20 @@
 					I believe these activities help me maintain a perpetually curious view of the world around me and maximize my serendipity.
 				</p>
 		</div>
+		
+		<audio id="invisibleAudioPlayer" style="height: 0px">
+			<source src="audio/name_pronunciation.mp3" type="audio/mp3">
+			Your browser does not support the audio element.
+		</audio>
+		
+		<script>
+			const name_pronunciation_button = document.getElementsByClassName("name_pronunciation")[0];
+			const invisible_audio_player = document.getElementById('invisibleAudioPlayer');
+			
+			function playNamePronunciation() {
+				invisible_audio_player.play();
+			}
+			
+		</script>
 	</body>
 </html>
