@@ -1,0 +1,53 @@
+.bodyDiv table {
+	/* border: 1px solid black; */
+	/* border-collapse: collapse; */
+	width: 100%;
+}
+
+.bodyDiv th {
+	/* border: 1px solid black; */
+	/* border-collapse: collapse; */
+	width: 33%;
+}
+
+.bodyDiv tr {
+	border: 1px solid black;
+	border-collapse: collapse;
+	text-align: left;
+	font-size: 1em;
+}
+
+.bodyDiv h4 {
+	margin-bottom: 5px;
+}
+
+.bodyDiv h5 {
+	margin-top: 0px;
+	margin-left: 15px;
+	margin-bottom: 10px;
+}
+
+audio {
+	width: 95%;
+	border: 1px solid black;
+	border-radius: 30px;
+	margin-bottom: 10px;
+}
+
+iframe {
+	width: 95%;
+	padding-right: 2.5%;
+	height: 165px;
+}
+
+audio::-webkit-media-controls-panel {
+	background-color: #a3f5e3;
+}
+
+audio::-webkit-media-controls-current-time-display {
+	font-weight: bold;
+}
+
+audio::-webkit-media-controls-time-remaining-display {
+	font-weight: bold;
+}
