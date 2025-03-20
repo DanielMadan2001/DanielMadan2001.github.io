@@ -82,11 +82,14 @@ p{
 .headerTablePointCurrent{
 	font-family: Verdana, sans-serif;
 	width: 300px;
+	padding-top: 0;
+	padding-bottom: 20px;
 	font-size: 1.25em;
 	vertical-align: center;
 	color: yellow;
 	text-shadow: 2px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000, 1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
 	text-decoration: none;
+	padding-bottom: 0.75%;
 }
 
 .bodyDiv{
