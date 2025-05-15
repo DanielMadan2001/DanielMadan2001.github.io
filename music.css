@@ -18,6 +18,10 @@
 	font-size: 1em;
 }
 
+.bodyDiv a {
+	text-decoration: none;
+}
+
 .bodyDiv h4 {
 	margin-bottom: 5px;
 }

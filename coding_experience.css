@@ -1,4 +1,14 @@
 .liText{
 	font-size: 16;
 	font-family: Verdana, sans-serif;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+li img {
+	margin: auto; 
+	float: left;
+	height: 22.5px;
+	margin: 0px;
 }
