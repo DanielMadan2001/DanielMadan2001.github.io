@@ -1,0 +1,43 @@
+a {
+	text-decoration: none;
+}
+
+ul {
+	line-height: 1.5em;
+}
+
+.galleryTable {
+	width: 100%;
+}
+
+.videoDemo {
+	width: 49%; 
+	padding-right: 5px;
+	transition: 0.5s;
+	padding-left: 4px;
+	padding-bottom: 10px;
+}
+
+.galleryTh {
+	width: 25%;
+	padding-right: 10px;
+	transition: 0.5s;
+	vertical-align: top;
+    padding-bottom: 15px;
+}
+
+.galleryItem {
+	width: 100%; 
+}
+
+.galleryItemCaption {
+	font-size: 1em;
+	font-weight: normal;
+    padding-bottom: 0px;
+}
+
+.galleryItemSource {
+	font-size: 0.85em;
+	font-weight: normal;
+    padding-top: 0px;
+}
